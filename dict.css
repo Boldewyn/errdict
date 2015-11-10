@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700);
+
+body {
+  font: 100%/1.75 Libre Baskerville,Georgia,serif;
+  color: #443333;
+  background: #F8F4F4;
+  background: #F8F4F4 linear-gradient(to bottom, #E8E0E0, #F8F4F4 5em, #F8F4F4) no-repeat;
+}
+
+a {
+  color: #880000;
+  text-decoration: none;
+}
+
+a:focus, a:hover {
+  color: #aa0000;
+}
+
+article {
+  max-width: 30em;
+  margin: 10em auto 0;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 1.75em;
+}
+
+footer p {
+  font-size: .8em;
+}
+
+p {
+  margin: 0;
+  text-align: justify;
+}
+
+p + p {
+  text-indent: 1.5em;
+}
+
+@media (min-width: 33em) {
+  article p:first-child {
+    text-indent: -1.5em;
+  }
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  overflow-x: hidden;
+}
+
+ul li:before {
+  float: left;
+  width: 0;
+  white-space: nowrap;
+  content:
+  ". . . . . . . . . . . . . . . . . . . . "
+  ". . . . . . . . . . . . . . . . . . . . "
+  ". . . . . . . . . . . . . . . . . . . . "
+  ". . . . . . . . . . . . . . . . . . . . ";
+}
+
+ul span:first-child {
+  padding-right: 0.33em;
+  background: #F8F4F4;
+}
+
+ul span + a {
+  float: right;
+  padding-left: 0.33em;
+  background: #F8F4F4;
+}
