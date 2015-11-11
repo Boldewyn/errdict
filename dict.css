@@ -91,19 +91,17 @@ ul li:before {
   ". . . . . . . . . . . . . . . . . . . . ";
   order: 2;
   flex: 1 0;
+  direction: rtl;
 }
 
 ul span:first-child {
   padding-right: 1.75em;
-  background: #F8F4F4;
   order: 1;
 }
 
 ul span + a {
-  float: right;
   padding-left: .33em;
   min-width: 1.75em;
   text-align: right;
-  background: #F8F4F4;
   order: 3;
 }
