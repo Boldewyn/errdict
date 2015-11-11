@@ -75,23 +75,28 @@ p + p {
 ul {
   list-style: none;
   padding-left: 0;
-  overflow-x: hidden;
+}
+
+ul li {
+  display: flex;
 }
 
 ul li:before {
-  float: left;
-  width: 0;
   white-space: nowrap;
+  overflow-x: hidden;
   content:
   ". . . . . . . . . . . . . . . . . . . . "
   ". . . . . . . . . . . . . . . . . . . . "
   ". . . . . . . . . . . . . . . . . . . . "
   ". . . . . . . . . . . . . . . . . . . . ";
+  order: 2;
+  flex: 1 0;
 }
 
 ul span:first-child {
   padding-right: 1.75em;
   background: #F8F4F4;
+  order: 1;
 }
 
 ul span + a {
@@ -100,4 +105,5 @@ ul span + a {
   min-width: 1.75em;
   text-align: right;
   background: #F8F4F4;
+  order: 3;
 }
