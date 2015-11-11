@@ -38,11 +38,12 @@ h3, h2.intro {
 }
 
 article {
-  max-width: 30em;
-  margin: 0 auto;
-  padding: 10.5em 0 5.25em;
+  background: radial-gradient( closest-side rgba(255,255,255,1), rgba(255,255,255,0)) no-repeat center;
   -moz-hyphens: auto;
   hyphens: auto;
+  margin: 0 auto;
+  max-width: 30em;
+  padding: 10.5em 0 5.25em;
 }
 
 footer {
