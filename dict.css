@@ -5,6 +5,9 @@ body {
   color: #443333;
   background: #F8F4F4;
   background: #F8F4F4 linear-gradient(to bottom, #E8E0E0, #F8F4F4 5em, #F8F4F4) no-repeat;
+  margin: 0;
+  min-height: 100vh; /* needed to place footer on bottom reliably */
+  position: relative;
 }
 
 a {
@@ -36,7 +39,8 @@ h3, h2.intro {
 
 article {
   max-width: 30em;
-  margin: 10em auto 0;
+  margin: 0 auto;
+  padding: 10.5em 0 5.25em;
   -moz-hyphens: auto;
   hyphens: auto;
 }
