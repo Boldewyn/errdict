@@ -16,6 +16,24 @@ a:focus, a:hover {
   color: #aa0000;
 }
 
+h1 {
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: .875em;
+}
+
+h2 {
+  font-size: 1.61818em;
+  margin-top: 0;
+  margin-bottom: 1.081461em;
+}
+
+h3, h2.intro {
+  font-size: 1.4142em;
+  margin-top: 0;
+  margin-bottom: 1.237448em;
+}
+
 article {
   max-width: 30em;
   margin: 10em auto 0;
