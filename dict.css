@@ -19,6 +19,10 @@ a:focus, a:hover {
   color: #aa0000;
 }
 
+code {
+  font-family: inherit;
+}
+
 h1 {
   font-size: 2em;
   margin-top: 0;
@@ -94,12 +98,12 @@ ul li:before {
   direction: rtl;
 }
 
-ul span:first-child {
+ul li :first-child {
   padding-right: 1.75em;
   order: 1;
 }
 
-ul span + a {
+ul li :first-child + a {
   padding-left: .33em;
   min-width: 1.75em;
   text-align: right;
