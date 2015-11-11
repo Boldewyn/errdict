@@ -3,7 +3,7 @@ layout: default
 footer: <a href="https://github.com/Boldewyn/errdict/issues">Add an entry on Github</a>
 ---
 
-<h2 class="intro">The Dictionary of Arcane Error Codes</h2>
+## {{ site.title }}
 
 # Index of Error Codes
 
