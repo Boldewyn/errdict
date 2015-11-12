@@ -1,6 +1,8 @@
 ---
 layout: default
-footer: <a href="https://github.com/Boldewyn/errdict/issues">Add an entry on Github</a>
+footer: >
+  <a href="https://github.com/Boldewyn/errdict/issues">Add an entry on Github</a> /
+  <a href="https://twitter.com/m_strehl">by @m_strehl</a>
 ---
 
 ## {{ site.title }}
