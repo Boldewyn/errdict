@@ -110,6 +110,10 @@ ul li :first-child + a {
   order: 3;
 }
 
+pre {
+  line-height: 1.25; /* make sure box drawing looks nice */
+}
+
 ::-moz-selection {
   background: #443333;
   color: #F8F4F4;
