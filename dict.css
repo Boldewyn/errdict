@@ -59,7 +59,7 @@ article {
   hyphens: auto;
   margin: 0 auto;
   max-width: 30em;
-  padding: 10.5em 0 5.25em;
+  padding: 10.5em .875em 5.25em;
 }
 
 footer {
