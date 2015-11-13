@@ -4,7 +4,7 @@ body {
   font: 100%/1.75 Libre Baskerville,Georgia,serif;
   color: #443333;
   background: #F8F4F4;
-  background: #F8F4F4 linear-gradient(to bottom, #E8E0E0, #F8F4F4 5em, #F8F4F4) no-repeat;
+  background: #F8F4F4 linear-gradient(to bottom, #ECE4E4, #F8F4F4 5em, #F8F4F4) no-repeat;
   margin: 0;
   min-height: 100vh; /* needed to place footer on bottom reliably */
   position: relative;
@@ -29,16 +29,28 @@ h1 {
   margin-bottom: .875em;
 }
 
+* + h1 {
+  margin-top: .875em;
+}
+
 h2 {
   font-size: 1.61818em;
   margin-top: 0;
   margin-bottom: 1.081461em;
 }
 
+* + h2 {
+  margin-top: 1.081461em;
+}
+
 h3 {
   font-size: 1.4142em;
   margin-top: 0;
   margin-bottom: 1.237448em;
+}
+
+* + h3 {
+  margin-top: 1.237448em;
 }
 
 article {

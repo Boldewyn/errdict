@@ -1,12 +1,11 @@
 # The Dictionary of Arcane E-Mail Error Codes
 
-dictionary.boldewyn.de
+http://dictionary.boldewyn.de
 
 ## Contributing
 
-Yes, please! Open a pull request or an issue. Please note, that your
-contribution will be placed under the same license as the rest of
-this content.
+Yes, please! [Please read the contribution guides](CONTRIBUTING.md) for
+details.
 
 ## License
 
