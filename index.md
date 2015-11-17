@@ -8,7 +8,7 @@ footer: >
 ## {{ site.title }}
 
 <figure>
-  <img src="images/icon.png" alt="stylized envelope struck by lightning" height="128" width="128">
+  <img src="images/icon128.png" alt="stylized envelope struck by lightning" height="128" width="128">
 </figure>
 
 # Index of Error Codes

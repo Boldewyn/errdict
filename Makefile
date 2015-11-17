@@ -1,8 +1,14 @@
-all: images/icon.png _site/index.html
+ICON_SIZES := 16 48 128 256
+ICONS := $(patsubst %,images/icon%.png,$(ICON_SIZES))
 
-images/icon.png: _src/icon.svg
-	@mkdir -p images
-	@rsvg-convert -w 128 -h 128 "$<" -o "$@"
+all: icons site
+
+icons: $(ICONS)
+
+site: _site/index.html
+
+$(ICONS): _src/icon.svg
+	@rsvg-convert -w $(patsubst images/icon%.png,%,$@) -h $(patsubst images/icon%.png,%,$@) "$<" -o "$@"
 	@optipng -q -o7 "$@"
 
 _site/index.html: index.md
