@@ -1,4 +1,4 @@
-ICON_SIZES := 16 48 128 256
+ICON_SIZES := 16 32 48 64 128 256
 ICONS := $(patsubst %,images/icon%.png,$(ICON_SIZES))
 
 all: icons site
