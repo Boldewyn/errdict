@@ -1,6 +1,9 @@
 ---
 title: ERR_INSUFFICIENT_INPUT
 layout: default
+description: >
+ A dialog partner fails to address all the
+ questions from a previous e-mail.
 ---
 
 __ERR_INSUFFICIENT_INPUT__.

@@ -1,6 +1,10 @@
 ---
 title: ERR_TIMEOUT
 layout: default
+description: >
+ A dialog partner fails to deliver necessary
+ information for a project for some time, only to rush for immediate
+ execution when finally producing said information.
 ---
 
 __ERR_TIMEOUT__.

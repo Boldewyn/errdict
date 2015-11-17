@@ -1,6 +1,10 @@
 ---
 title: ERR_PARSE_FAILURE
 layout: default
+description: >
+ A dialog partner utters incoherent data
+ that has virtually nothing to do with the topic of the previous e-mail
+ or the overall conversation.
 ---
 
 __ERR_PARSE_FAILURE__.

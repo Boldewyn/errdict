@@ -1,6 +1,9 @@
 ---
 title: ERR_NO_FILE
 layout: default
+description: >
+ A dialog partner refers to a missing
+ attachment. In many cases this error appears twice in close succession.
 ---
 
 __ERR_NO_FILE__.

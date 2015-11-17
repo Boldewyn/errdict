@@ -1,6 +1,10 @@
 ---
 title: ERR_J
 layout: default
+description: >
+ A dialog partner sends the letter “J” as if it
+ were punctuation or would carry some other special meaning. Said sender uses
+ most probably MS Outlook.
 ---
 
 __ERR_J__.

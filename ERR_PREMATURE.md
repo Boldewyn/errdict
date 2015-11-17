@@ -1,6 +1,8 @@
 ---
 title: ERR_PREMATURE
 layout: default
+description: >
+ A dialog partner presses “send” before
 ---
 
 __ERR_PREMATURE__.

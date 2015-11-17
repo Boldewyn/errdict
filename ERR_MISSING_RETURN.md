@@ -1,6 +1,10 @@
 ---
 title: ERR_MISSING_RETURN
 layout: default
+description: >
+ A dialog partner orders a service without offering
+ adequate or even any compensation. Likely combined with a statement on either
+ the ease of or the fame involved in the ordered task.
 ---
 
 __ERR_MISSING_RETURN__.

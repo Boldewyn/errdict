@@ -1,6 +1,10 @@
 ---
 title: ERR_CALL_TIME
 layout: default
+description: >
+ A dialog partner should have better made a
+ simple phone call. The message subject usually contains terms like
+ “Urgent!” or “Immediate response necessary”.
 ---
 
 __ERR_CALL_TIME__.
