@@ -7,6 +7,8 @@ footer: >
 
 ## {{ site.title }}
 
+<img src="../_src/icon.svg" style="margin: 1em auto; display: block;" height="128" width="128">
+
 # Index of Error Codes
 
 * `ERR_CALL_TIME` [1](ERR_CALL_TIME)
