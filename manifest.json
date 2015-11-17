@@ -1,0 +1,22 @@
+---
+---
+
+{
+  "manifest_version": 2,
+  "name": "{{ site.title }}",
+  "version": "1.0.0",
+  "default_locale": "en",
+  "lang": "en",
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "64": "images/icon64.png",
+    "128": "images/icon128.png",
+    "256": "images/icon256.png"
+  },
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#F8F4F4",
+  "theme_color": "#F8F4F4"
+}
