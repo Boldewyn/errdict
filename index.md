@@ -7,7 +7,7 @@ footer: >
 
 ## {{ site.title }}
 
-<img src="../_src/icon.svg" style="margin: 1em auto; display: block;" height="128" width="128">
+<img src="images/icon.png" style="margin: 1em auto; display: block;" height="128" width="128">
 
 # Index of Error Codes
 
