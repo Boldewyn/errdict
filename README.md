@@ -1,6 +1,6 @@
 # The Dictionary of Arcane E-Mail Error Codes
 
-http://dictionary.boldewyn.de
+https://dictionary.boldewyn.de
 
 ## Contributing
 
