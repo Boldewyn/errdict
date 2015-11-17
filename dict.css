@@ -73,6 +73,11 @@ footer p {
   font-size: .8em;
 }
 
+figure {
+  margin: 1.75em auto;
+  text-align: center;
+}
+
 p {
   margin: 0;
   text-align: justify;

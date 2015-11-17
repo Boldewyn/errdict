@@ -1,13 +1,15 @@
 ---
 layout: default
 footer: >
-  <a href="https://github.com/Boldewyn/errdict/issues">Add an entry on Github</a> /
+  <a href="https://github.com/Boldewyn/errdict">Add an entry on Github</a> /
   <a href="https://twitter.com/m_strehl">by @m_strehl</a>
 ---
 
 ## {{ site.title }}
 
-<img src="images/icon.png" style="margin: 1em auto; display: block;" height="128" width="128">
+<figure>
+  <img src="images/icon.png" alt="stylized envelope struck by lightning" height="128" width="128">
+</figure>
 
 # Index of Error Codes
 
