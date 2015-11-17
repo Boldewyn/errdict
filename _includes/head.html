@@ -3,4 +3,16 @@
 <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }}</title>
 <meta name="viewport" content="width=device-width">
 <link rel="stylesheet" href="dict.css">
+
+{% if page.description %}
+<meta name="description" content="{{ page.description|strip_newlines }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@{{ site.twitter_username }}">
+<meta name="twitter:title" content="Arcane E-Mail Error {{ page.title }}">
+<meta name="twitter:description" content="{{ page.description|strip_newlines }}">
+<meta name="twitter:image" content="{{ site.url }}images/icon.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Arcane E-Mail Error {{ page.title }}">
+<meta property="og:image" content="{{ site.url }}images/icon.png">
+{% endif %}
 </head>
