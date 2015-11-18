@@ -11,11 +11,11 @@
 <meta name="description" content="{{ page.description|strip_newlines }}">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@{{ site.twitter_username }}">
-<meta name="twitter:title" content="Arcane E-Mail Error {{ page.title }}">
+<meta name="twitter:title" content="{% if page.title %}Arcane E-Mail Error {{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta name="twitter:description" content="{{ page.description|strip_newlines }}">
 <meta name="twitter:image" content="{{ site.url }}/images/icon128.png">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Arcane E-Mail Error {{ page.title }}">
+<meta property="og:title" content="{% if page.title %}Arcane E-Mail Error {{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta property="og:image" content="{{ site.url }}/images/icon128.png">
 {% endif %}
 </head>

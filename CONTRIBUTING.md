@@ -1,5 +1,8 @@
 ---
+title: Contribution Guidelines
 layout: default
+description: >
+  contribution: How to add a new error code.
 ---
 
 # Contribution Guidelines
