@@ -2,10 +2,13 @@
 <footer>
   <p>{% if page.footer %}{{ page.footer }}{% else %}<a href=".">Back to the index</a>{% endif %}</p>
 </footer>
-<script>var _paq=[['trackPageView'],['enableLinkTracking'],['setSiteId',6]];(function(p){var u="//piwik.manuel-strehl.de/";p.push(['setTrackerUrl',u+'piwik.php']);var d=document,g=d.createElement('script'),s=d.getElementsByTagName('script')[0];g.async=true;g.defer=true;g.src=u+'piwik.js';s.parentNode.insertBefore(g,s)})(_paq)</script>
-<noscript><img src="//piwik.manuel-strehl.de/piwik.php?idsite=6" alt=""></noscript>
 <script>
+if (location.protocol === 'http:') {
+  location.protocol = 'https:';
+}
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js');
 }
 </script>
+<script>var _paq=[['trackPageView'],['enableLinkTracking'],['setSiteId',6]];(function(p){var u="//piwik.manuel-strehl.de/";p.push(['setTrackerUrl',u+'piwik.php']);var d=document,g=d.createElement('script'),s=d.getElementsByTagName('script')[0];g.async=true;g.defer=true;g.src=u+'piwik.js';s.parentNode.insertBefore(g,s)})(_paq)</script>
+<noscript><img src="//piwik.manuel-strehl.de/piwik.php?idsite=6" alt=""></noscript>
