@@ -4,7 +4,7 @@
 </footer>
 <script>
 if (window.location.protocol === 'http:') {
-  window.location = window.location.replace(/^http:/, 'https:');
+  window.location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
 }
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js');
