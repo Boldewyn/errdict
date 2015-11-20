@@ -3,8 +3,8 @@
   <p>{% if page.footer %}{{ page.footer }}{% else %}<a href=".">Back to the index</a>{% endif %}</p>
 </footer>
 <script>
-if (location.protocol === 'http:') {
-  location.protocol = 'https:';
+if (window.location.protocol === 'http:') {
+  window.location = window.location.replace(/^http:/, 'https:');
 }
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js');
