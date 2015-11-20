@@ -93,16 +93,18 @@ p + p {
   }
 }
 
-ul {
+ol {
   list-style: none;
   padding-left: 0;
+  counter-reset: ol;
 }
 
-ul li {
+ol li {
   display: flex;
+  counter-increment: ol;
 }
 
-ul li:before {
+ol li:before {
   white-space: nowrap;
   overflow-x: hidden;
   content:
@@ -115,16 +117,24 @@ ul li:before {
   direction: rtl;
 }
 
-ul li :first-child {
+ol li :first-child {
   padding-right: 1.75em;
   order: 1;
 }
 
-ul li :first-child + a {
+ol li:after {
   padding-left: .33em;
   min-width: 1.75em;
   text-align: right;
   order: 3;
+  content: counter(ol);
+  color: #880000;
+  cursor: pointer;
+}
+
+ol li:focus:after,
+ol li:hover:after {
+  color: #aa0000;
 }
 
 pre {
