@@ -26,6 +26,10 @@ description: >
 1. [ERR_PREMATURE](ERR_PREMATURE)
 1. [ERR_TIMEOUT](ERR_TIMEOUT)
 
+This dictionary presents a comprehensive collection of error codes in
+human-to-human e-mail communication. If you find an error code missing, please
+see the [contribution guide](CONTRIBUTING).
+
 <script>
 document
   .querySelectorAll('ol')[0]

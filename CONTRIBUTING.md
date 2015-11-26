@@ -7,7 +7,8 @@ description: >
 
 # Contribution Guidelines
 
-Thank you for your suggestion to extend the dictionary!
+Thank you for your suggestion to extend the dictionary! You can add a new
+error code on [this site’s Github page](https://github.com/Boldewyn/errdict).
 
 ## The Scope _&_ Tone of Error Codes
 
