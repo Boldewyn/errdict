@@ -2,7 +2,7 @@
 layout: default
 footer: >
   <a href="https://github.com/Boldewyn/errdict">Add an entry on Github</a> /
-  <a href="https://github.com/Boldewyn/errdict/blob/master/README.md">Info and attribution</a> /
+  <a href="https://github.com/Boldewyn/errdict/blob/gh-pages/README.md">Info and attribution</a> /
   by <a href="https://twitter.com/m_strehl">@m_strehl</a>
 description: >
   A comprehensive collection of error codes in human-to-human e-mail
