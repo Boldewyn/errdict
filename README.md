@@ -10,7 +10,7 @@ details.
 ## Icon Attribution
 
 The icon is based on work by
-[Katarina Stefanikova](http://www.flaticon.com/free-icon/electrical-storm-outlined-weather-sign_59274).
+[Katarina Stefanikova](http://www.flaticon.com/free-icon/electrical-storm-outlined-weather-sign_59274) from [www.flaticon.com](http://www.flaticon.com/).
 
 ## License
 
